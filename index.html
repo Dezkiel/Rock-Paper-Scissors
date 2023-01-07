@@ -2,24 +2,26 @@
 <html>
 <head>
     <title>Rock Paper Scissors</title>
-    <link rel="stylesheet" src="style.css">
+    <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
 </head>
 <body>
     <header>
         <h1 class="rps-title">Rock Paper Scissors</h1>
-        <p>V 0.01 Alpha</p>
     </header>
     <h3>Choose one</h3>
-    <div class="rps-buttons main-background">
-        <button id="rock">rock</button>
-        <button id="paper">paper</button>
-        <button id="scissors">scissors</button>
+    <div class="rps-buttons-container main-background">
+        <img id="rock" src="./pictures/rock2.png">
+        <img id="paper" src="./pictures/paper2.png">
+        <img id="scissors" src="./pictures/scissors2.png">
     </div>
-    <div class="score-message-container main-background">
-        <p class="player-score">Player score: 0</p>
-        <p class="draw-msg"></p>
-        <p class="computer-score">Computer score: 0</p>        
-    </div>
+    <ul>
+        <li><p class="player-score">Player score: 0</p></li>
+        <li><p class="draw-msg"></p></li>
+        <li><p class="computer-score">Computer score: 0</p></li>
+    </ul>
+    <footer class="footer">
+        <p>Created by Dezkiel 2023</p>
+    </footer>
 </body>
 </html>

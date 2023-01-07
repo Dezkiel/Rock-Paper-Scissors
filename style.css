@@ -1,0 +1,65 @@
+body
+{
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+header
+{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h3
+{
+    text-align: center;
+}
+
+.rps-buttons-container
+{
+    margin: 0;
+    margin-bottom: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+}
+
+ul
+{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+li
+{
+    width: 130px;
+}
+
+.footer
+{
+    padding-top: 120px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+img
+{
+    height: 100px;
+    width: auto;
+}
+
+img:hover
+{
+    height: 110px;
+    width: auto;
+}
