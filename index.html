@@ -2,9 +2,24 @@
 <html>
 <head>
     <title>Rock Paper Scissors</title>
-    <script src="script.js"></script>
+    <link rel="stylesheet" src="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
-    
+    <header>
+        <h1 class="rps-title">Rock Paper Scissors</h1>
+        <p>V 0.01 Alpha</p>
+    </header>
+    <h3>Choose one</h3>
+    <div class="rps-buttons main-background">
+        <button id="rock">rock</button>
+        <button id="paper">paper</button>
+        <button id="scissors">scissors</button>
+    </div>
+    <div class="score-message-container main-background">
+        <p class="player-score">Player score: 0</p>
+        <p class="draw-msg"></p>
+        <p class="computer-score">Computer score: 0</p>        
+    </div>
 </body>
 </html>
